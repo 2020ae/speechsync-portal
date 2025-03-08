@@ -11,6 +11,12 @@ export default defineConfig(({ mode }) => ({
     port: 8080,
   },
   base: "./", // Set base to relative path for GitHub Pages
+  build: {
+    outDir: "dist",
+    assetsDir: "assets",
+    sourcemap: false,
+    minify: true,
+  },
   plugins: [
     react(),
     mode === 'development' &&
