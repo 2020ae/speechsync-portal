@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - SpeechSync</title>
+    <meta name="description" content="Learn about SpeechSync's text-to-speech technology" />
+    <meta name="author" content="SpeechSync" />
+    <meta property="og:image" content="./images/og-image.png" />
+    <link rel="icon" href="./images/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+
+  <body>
+    <div id="root">
+      <!-- Header -->
+      <header class="header">
+        <div class="container">
+          <div class="header-content">
+            <a href="index.html" class="logo">SpeechSync</a>
+            <nav class="nav-menu">
+              <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <!-- Hero Section -->
+        <section class="page-header">
+          <div class="container">
+            <div class="page-header-content">
+              <h1 class="page-title">About SpeechSync</h1>
+              <p class="page-description">
+                Learn more about our mission and the technology behind our text-to-speech platform.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Content Section -->
+        <section class="content-section">
+          <div class="container">
+            <div class="content-container">
+              <h2>Our Mission</h2>
+              <p>
+                At SpeechSync, our mission is to make high-quality text-to-speech technology accessible to everyone. 
+                We believe that voice synthesis has the power to transform how we consume content, making information 
+                more accessible and engaging.
+              </p>
+              
+              <h2>The Technology</h2>
+              <p>
+                Our text-to-speech engine is built on advanced deep learning models that have been trained on thousands 
+                of hours of natural speech. This allows us to generate voices that sound remarkably human, with natural 
+                intonation, rhythm, and emphasis.
+              </p>
+              <p>
+                Unlike traditional text-to-speech systems that sound robotic and unnatural, our technology captures 
+                the nuances of human speech, making it suitable for a wide range of applications, from content creation 
+                to accessibility tools.
+              </p>
+              
+              <h2>Use Cases</h2>
+              <ul>
+                <li>
+                  <strong>Content Creation</strong> - Create voiceovers for videos, podcasts, and other content without 
+                  the need for professional recording equipment or voice talent.
+                </li>
+                <li>
+                  <strong>Accessibility</strong> - Make written content accessible to people with visual impairments or 
+                  reading difficulties.
+                </li>
+                <li>
+                  <strong>Language Learning</strong> - Hear how words and phrases are pronounced by native speakers to 
+                  improve pronunciation and listening comprehension.
+                </li>
+                <li>
+                  <strong>Storytelling</strong> - Bring stories to life with expressive voice narration, creating a more 
+                  immersive experience for listeners.
+                </li>
+              </ul>
+              
+              <h2>Our Team</h2>
+              <p>
+                SpeechSync was founded by a team of AI researchers and engineers with a passion for natural language 
+                processing and speech synthesis. With decades of combined experience in the field, our team is dedicated 
+                to pushing the boundaries of what's possible with text-to-speech technology.
+              </p>
+              
+              <div class="cta-container">
+                <a href="contact.html" class="button primary">Get in touch with our team</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-logo">
+              <a href="index.html">SpeechSync</a>
+              <p>Advanced Text-to-Speech Technology</p>
+            </div>
+            
+            <div class="footer-links">
+              <div class="footer-links-group">
+                <h3>Pages</h3>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+              
+              <div class="footer-links-group">
+                <h3>Legal</h3>
+                <ul>
+                  <li><a href="privacy.html">Privacy Policy</a></li>
+                  <li><a href="terms.html">Terms of Service</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="footer-bottom">
+            <p>&copy; 2023 SpeechSync. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Toast notification container -->
+      <div id="toast-container"></div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
