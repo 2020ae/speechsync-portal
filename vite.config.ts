@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  base: "./", // Set base to relative path for GitHub Pages
+  base: "/speechsync-portal/", // Updated base path to match repository name
   build: {
     outDir: "dist",
     assetsDir: "assets",
